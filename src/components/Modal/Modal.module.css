@@ -1,0 +1,24 @@
+.wrapper {
+    width: 600px;
+    max-width: calc(100% - 32px);
+    background-color: white;
+    margin: 50px auto;
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 10px white;
+}
+
+.header-modal {
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.close-modal {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    color: crimson;
+}

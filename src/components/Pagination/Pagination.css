@@ -1,0 +1,42 @@
+.pageActive {
+    background-color: crimson;
+}
+
+.btn-page {
+    padding: 8px 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 1200px) {
+    .page-number {
+        transform: translateX(370px) !important;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .page-number {
+        transform: translateX(130px);
+    }
+}
+
+@media (max-width:768px) {
+    .btn-page {
+        padding: 4px 12px;
+        margin-left: 12px;
+    }
+}
+
+@media (max-width:576px) {
+    .btn-page {
+        padding: 3px 8px;
+        margin-left: 8px;
+    }
+
+    .back,
+    .double-back,
+    .next,
+    .double-next {
+        font-size: 15px !important;
+    }
+}

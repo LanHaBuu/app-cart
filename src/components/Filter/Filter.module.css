@@ -1,0 +1,52 @@
+.search-category {
+    margin-top:20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid;
+}
+
+.search-category-icon {
+    font-size: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.search-category-btn {
+    font-size: 20px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.filter-price {
+    margin-top: 20px;
+}
+
+.filter-price-title {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.increase, .decrease {
+    margin-bottom: 5px;
+}
+
+.increase input, .decrease input {
+    margin-right: 5px;
+    width: 20px;
+    height: 15px;
+}
+
+.increase label, .decrease label {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.close-filter {
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    padding: 10px 50px;
+    letter-spacing: 2px;
+    background-color: black;
+    color: white;
+}

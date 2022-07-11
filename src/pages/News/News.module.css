@@ -1,0 +1,9 @@
+.news-youtube {
+    max-width: 100%;
+}
+
+@media (max-width:768px) {
+    .news-youtube {
+        height: 500px;
+    }
+}

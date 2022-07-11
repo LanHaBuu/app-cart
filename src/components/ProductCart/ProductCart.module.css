@@ -1,0 +1,59 @@
+.product {
+    border: 1px solid;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all linear .3s;
+}
+
+.product:hover {
+    transform: translateY(-8px);
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.card-desc {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    height: 45px;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.wrapper-price-rating {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-price {
+    color: crimson;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.card-rating {
+    color: #e5dc21f2;
+}
+
+.filter-header{
+    padding-bottom: 20px;
+    border-bottom: 1px solid;
+}
+
+.filter-title {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.filter-icon{
+    font-size: 20px;
+    margin-right: 20px;
+}

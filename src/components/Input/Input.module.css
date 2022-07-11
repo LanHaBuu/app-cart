@@ -1,0 +1,35 @@
+.wrapper-input {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    overflow: hidden;
+}
+
+.wrapper-input:focus-within {
+    border: 2px solid #ced4da;
+}
+
+.input-search-name {
+    flex: 1;
+    padding: 0 15px;
+    caret-color: crimson;
+    border: none;
+    outline: none;
+}
+
+.btn-input {
+    outline: none;
+    border: none;
+    font-size: 1.5rem;
+    padding: 0 24px;
+    color: white;
+    background-color: #ef4d40;
+    transition: all .3s ease-in-out;
+}
+
+.btn-input:hover {
+    background-color: #ce2e2f;
+    border-color: #ce2e2f;
+}

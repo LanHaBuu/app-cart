@@ -1,0 +1,43 @@
+.wrapper {
+    position: relative;
+    margin-top: 30px;
+}
+
+.home-title {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.app {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.prev-btn,
+.next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 40px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.prev-btn {
+    left: -10px;
+}
+
+.next-btn {
+    right: -10px;
+}
+
+.btn-on-top {
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+    font-size: 35px;
+    padding: 10px;
+    cursor: pointer;
+    color: crimson;
+}

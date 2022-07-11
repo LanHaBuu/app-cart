@@ -1,0 +1,51 @@
+/* ---------banner---------- */
+.wrapper-banner {
+    margin: 40px 0;
+    position: relative
+}
+
+.banner-btn {
+    position: absolute;
+    top: 37%;
+    right: 83px;
+    padding: 31px 115px;
+
+}
+
+/* ------product-sliced-------- */
+
+
+@media (max-width:1400px) {
+    .banner-btn {
+        right: 58px;
+        padding: 23px 85px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1400px) {
+    .banner-btn {
+        right: 56px;
+        padding: 20px 75px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .banner-btn {
+        right: 44px;
+        padding: 15px 60px;
+    }
+}
+
+@media (min-width:577px) and (max-width:768px) {
+    .banner-btn {
+        right: 30px;
+        padding: 12px 49px;
+    }
+}
+
+@media (max-width:576px) {
+    .banner-btn {
+        right: 24px;
+        padding: 8px 30px;
+    }
+}
