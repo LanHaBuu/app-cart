@@ -17,7 +17,11 @@ import BtnOnTop from "../../components/BtnOnTop"
 const cx = classNames.bind(styles)
 
 function Home() {
-	const { data: products, loading, error } = useFetch("https://api.escuelajs.co/api/v1/products/")
+	const {
+		data: products,
+		loading,
+		error,
+	} = useFetch("https://api.escuelajs.co/api/v1/products/")
 	const [productSliced, setProductSliced] = useState([])
 	const [productPriceMini, setProductPriceMini] = useState([])
 
@@ -29,7 +33,7 @@ function Home() {
 		}
 		if (products) {
 			const random = Math.floor(Math.random() * 10)
-			const priceMini = products.filter((item) => item.price < 100)
+			const priceMini = products.filter(item => item.price < 100)
 			const newArrPriceMini = priceMini.slice(random, random + 4)
 			setProductPriceMini(newArrPriceMini)
 		}
@@ -49,7 +53,7 @@ function Home() {
 	return (
 		<>
 			<div className={cx("container", "wrapper")}>
-				<div className="mb-2">
+				<div className='mb-2'>
 					<h3 className={cx("home-title")}>Sản phẩm bán chạy</h3>
 				</div>
 				<div className={cx("app")} ref={appRef}>
@@ -67,11 +71,17 @@ function Home() {
 
 			<Banner banner={banner1} />
 
-			<ProductSliced4 productSliced={productSliced} title="citizen lựa chọn" />
+			<ProductSliced4
+				productSliced={productSliced}
+				title='citizen lựa chọnádsad'
+			/>
 
 			<Banner banner={banner2} />
 
-			<ProductSliced4 productSliced={productPriceMini} title='giá thấp hơn "hãng"' />
+			<ProductSliced4
+				productSliced={productPriceMini}
+				title='giá thấp hơn "hãng"'
+			/>
 
 			<Banner banner={banner3} />
 
